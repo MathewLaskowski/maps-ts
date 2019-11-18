@@ -1,0 +1,17 @@
+{
+  "name": "maps-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Maciej Laskowski",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/faker": "^4.1.7",
+    "@types/googlemaps": "^3.38.0",
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
