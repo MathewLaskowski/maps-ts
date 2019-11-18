@@ -1,5 +1,6 @@
 // import { User } from './User';
 // import { Company } from './Company'
+import GoogleMapsLoader from 'google-maps'
 
 // const user = new User();
 // const company = new Company();
@@ -8,7 +9,8 @@
 // console.log(company)
 
 const mapDiv = document.getElementById('map');
-window.onload = function() {
+GoogleMapsLoader.KEY = process.env.GOOGLE_MAPS_KEY;
+GoogleMapsLoader.load(function(google) {
   new google.maps.Map(mapDiv, {
     zoom: 1,
     center: {
@@ -16,4 +18,4 @@ window.onload = function() {
       lng: 0
     }
   });
-}
+});

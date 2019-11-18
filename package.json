@@ -8,8 +8,10 @@
   "description": "",
   "dependencies": {
     "@types/faker": "^4.1.7",
-    "@types/googlemaps": "^3.38.0",
-    "faker": "^4.1.0"
+    "@types/google-maps": "^3.2.1",
+    "@types/node": "^12.12.9",
+    "faker": "^4.1.0",
+    "google-maps": "^3.3.0"
   },
   "devDependencies": {
     "typescript": "^3.7.2"
